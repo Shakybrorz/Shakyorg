@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Graphik";
+    src: url("fonts/Graphik-Regular.woff") format('woff');
+}
+
+* {
+  font-family: 'Graphik', sans-serif;
+}
+
+body {
+  background-color: #121212;
+  padding: 0;
+  margin: 0;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  color: white;
+  text-align: center;
+  /*whatever width you want*/
+}
+
+.inner a {
+  text-decoration: none;
+  color: purple;
+  font-weight: bold;
+  margin: 10px;
+  transition: 0.2s;
+}
+
+.inner a:hover {
+  color: magenta;
+}
