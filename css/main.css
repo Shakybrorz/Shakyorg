@@ -1,0 +1,270 @@
+header {
+    padding: 100px 0 10px;
+  }
+  .bg-dark {
+    background-color: #2C2F33!important;
+  }
+  .bg-gray {
+    background-color: #23272A!important;
+  }
+  .nav-link {
+    color: white!important;
+  }
+  section {
+    padding: 100px 0;
+  }
+  .untsr {
+    font-weight: bold;
+    font-size: 2.8em;
+    padding-bottom: 1.5em;
+  }
+  .sharetwitter {
+    color: white;
+    font-weight: bold;
+    border-color: #1da1f2;
+    border-radius: 5px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.05em;
+    font-family: Nunito;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    font-size: 1.4em;
+    transition: all .27s cubic-bezier(.3,.1,.58,1);
+  }
+  .sharetwitter:hover {
+    color: white;
+    background-color: #1da1f2;
+    box-shadow: 0 5px 15px rgba(29,161,242, .5);
+  }
+  .sharemail {
+    display: none;
+    color: white;
+    font-weight: bold;
+    border-color: #59c059;
+    border-radius: 5px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.05em;
+    font-family: Nunito;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    font-size: 1.4em;
+    transition: all .27s cubic-bezier(.3,.1,.58,1);
+  }
+  .sharemail:hover {
+    color: white;
+    background-color: #59c059;
+    box-shadow: 0 5px 15px rgba(37,211,102, .5);
+  }
+  .sharediscord {
+    color: white;
+    font-weight: bold;
+    border-color: #7289DA;
+    border-radius: 5px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.05em;
+    font-family: Nunito;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    font-size: 1.4em;
+    transition: all .27s cubic-bezier(.3,.1,.58,1);
+  }
+  .lnkwa {
+    display: none!important;
+  }
+  .sharediscord:hover {
+    color: white;
+    background-color: #7289DA;
+    box-shadow: 0 5px 15px rgba(114,137,218, .5);
+  }
+  .signit {
+    color: white;
+    font-weight: bold;
+    border-color: #2fb15b;
+    border-radius: 5px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.05em;
+    font-family: Nunito;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    font-size: 1.4em;
+    transition: all .27s cubic-bezier(.3,.1,.58,1);
+  }
+  .signit:hover {
+    color: white;
+    background-color: #2fb15b;
+    box-shadow: 0 5px 15px rgba(47, 177, 91, .5);
+  }
+  a {
+    text-decoration: none;
+  }
+  .lead {
+    font-size: 1.2rem;
+    font-family: Nunito;
+    margin-bottom: 0em!important;
+  }
+  a:focus {
+    outline: none;
+  }
+  a:hover {
+    text-decoration: none!important;
+  }
+  .btm {
+    margin: 0.5em;
+  }
+  .soc {
+    color: white;
+    font-size: 2rem;
+    margin: 1rem;
+    margin-bottom: 0;
+  margin-top: 1.2rem;
+  }
+  .soc2 {
+    width: auto;
+  }
+  .soc:hover {
+    color: white!important;
+  }
+  .teaser-dyn {
+    font-size: 3em;
+    height: 1.5em;
+    font-weight: bold;
+  }
+  
+  @media only screen and (max-width: 1030px) {
+    .teaser-dyn {
+      font-size: 1.7em!important;
+      margin-top: 3.5rem;
+    }
+    .sharewhatsapp {
+      display: unset;
+    }
+    .lnkwa {
+      display: inline-block!important;
+    }
+    .lnkp {
+      display: none;
+    }
+    .signit {
+      font-size: 1.1em;
+    }
+    .sharediscord {
+      font-size: 1.1em;
+    }
+    .sharetwitter {
+      font-size: 1.1em;
+    }
+    .sharemail {
+      font-size: 1.1em;
+    }
+    .mobspace {
+      display: unset!important;
+    }
+  }
+  .mobspace {display: none;}
+  @font-face {
+      font-family: 'Nunito';
+      src: url('../webfonts/nunito.ttf');
+  }
+  @font-face {
+      font-family: 'Roboto';
+      src: url('../webfonts/roboto.ttf');
+      font-style: normal;
+      font-weight: bold;
+  }
+  body {
+    font-family: Nunito;
+  }
+  .footer-lnk {
+    text-decoration: none;
+    color: white;
+  }
+  .footer-lnk:hover {
+    color: white;
+    text-decoration: underline!important;
+  }
+  .bg-primary {
+    background-color: #567cff !important;
+  }
+  .elem {
+    text-align: center;
+  }
+  .ico {
+    font-size: 6em;
+    margin: 0;
+  }
+  h4 {
+    margin-top: 0.4em;
+    margin-bottom: 1.2em;
+    font-size: 1em;
+    text-align: center;
+  }
+  h3 {
+    margin-top: 0.4em;
+    font-weight: bold;
+    letter-spacing: 0.001em;
+    margin-bottom: 0.8em;
+    font-size: 1.4em;
+  }
+  #wahl {
+    position: relative
+  }
+  
+  #nop {
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    font-size: 100%;
+    color: #f33e3e;
+  }
+  
+  .bg-dark {
+    color: white;
+  }
+  .cross {
+    color: #7fbc4f;
+  }
+  .gener {
+    color: #6fe47c;
+  }
+  .demografie {
+    color: #f68200;
+  }
+  .sack {
+    color: #c67777;
+  }
+  .bots {
+    color: #51a8ff;
+  }
+  .lobby {
+    color: #d99bff;
+  }
+  .devi {
+    color: #8598ff;
+  }
+  
+  .rocket {color: #41d0d0}
+  .social {
+    font-size: 6em;
+    text-align: center;
+  }
+  .container-fluid {
+    width: 80%!important;
+  }
+  h4 strong {
+    color: #acacff;
+  }
+  .prc {
+    color: #baffac;
+  }
